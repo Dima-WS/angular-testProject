@@ -1,0 +1,33 @@
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 32px;
+        font-size: 20px;
+        font-weight: 500;
+
+        &:hover {
+            color: rgba(255, 255, 255, 0.8);
+        }
+    }
+
+    img {
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 10px #5f5f5f,
+                    -2px 2px 10px #5f5f5f,
+                    2px -2px 10px #5f5f5f,
+                    -2px -2px 10px #5f5f5f;
+    }
+}
